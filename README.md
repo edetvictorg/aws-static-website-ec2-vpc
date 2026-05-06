@@ -76,7 +76,7 @@ To observe network activity, I enabled VPC Flow Logs. `Accept-Event-Log` recorde
 ### Validation
 I verified the setup by checking Nginx service status, accessing the site via IP and domain, confirming security rules (SSH & HTTP), and validating flow logs in S3.
 
-## Key Takeaways: 
+## Key Takeaways
 This project helped me understand how traffic flows inside a VPC, the difference between Security Groups and NACLs, EC2 as a raw compute environment, how web servers deliver content, basic observability using VPC Flow Logs, and the importance of debugging infrastructure.
 
 ## Limitations
