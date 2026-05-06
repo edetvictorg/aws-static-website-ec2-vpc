@@ -1,4 +1,4 @@
-# AWS Static Website Hosting (EC2 + Custom VPC)
+# AWS Static Website Hosting (EC2 & Custom VPC)
 
 ## Overview
 In this project, I deployed a static website on Amazon Web Services using Amazon EC2 within a custom Amazon VPC.
