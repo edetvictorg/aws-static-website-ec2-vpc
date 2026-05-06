@@ -71,7 +71,7 @@ The EC2 public IP was mapped to my domain `victoredet.online`. This made the dep
 ### Monitoring & Logging
 To observe network activity, I enabled VPC Flow Logs. `Accept-Event-Log` recorded allowed traffic while `Reject-Event-Log` recorded denied traffic, all stored in S3 bucket named `datawarehouse-flowlog`. This provided visibility into how traffic was flowing through the environment.
 
-![Flow Logs](images/flowlogs.png)
+![Flow Logs](images/flowlog.png)
 
 ### Validation
 I verified the setup by checking Nginx service status, accessing the site via IP and domain, confirming security rules (SSH & HTTP), and validating flow logs in S3.
