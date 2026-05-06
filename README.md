@@ -118,7 +118,4 @@ Going forward, I will:
 After validating the deployment, I deleted all resources (including the VPC and EC2 instance) to avoid ongoing costs.
 
 ## Status
-✔ Deployed
-✔ Tested
-✔ Validated
-✔ Cleaned up (cost-optimized teardown)
+The system was fully deployed, tested, and validated. And all resources were intentionally cleaned up after verification to prevent ongoing costs.
